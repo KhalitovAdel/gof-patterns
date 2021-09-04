@@ -14,9 +14,9 @@ export class KitchenFactory {
          * Here we can call our DI to get instance by token (If token is handler.name)
          *
          *
-         * Main difference from the Abstract method:
+         * Main difference from the Factory method:
          * Abstract factory return instance of the service,
-         * Otherwise abstract method make some action with one method of the service only.
+         * Otherwise factory method make some action with one method of the service only.
          */
         return new handler();
     }
