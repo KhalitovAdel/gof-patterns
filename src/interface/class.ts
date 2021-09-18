@@ -1,1 +1,1 @@
-export type IClass<T = unknown, ARGS extends [] = any> = new (...args: ARGS) => T;
+export type IClass<T = unknown> = new (...args: any[]) => T;
