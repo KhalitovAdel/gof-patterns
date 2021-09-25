@@ -1,0 +1,12 @@
+export { Add } from "./definitions/Add";
+export { AddResponse } from "./definitions/AddResponse";
+export { Subtract } from "./definitions/Subtract";
+export { SubtractResponse } from "./definitions/SubtractResponse";
+export { Multiply } from "./definitions/Multiply";
+export { MultiplyResponse } from "./definitions/MultiplyResponse";
+export { Divide } from "./definitions/Divide";
+export { DivideResponse } from "./definitions/DivideResponse";
+export { createClientAsync, CalculatorAsmxClient } from "./client";
+export { Calculator } from "./services/Calculator";
+export { CalculatorSoap } from "./ports/CalculatorSoap";
+export { CalculatorSoap12 } from "./ports/CalculatorSoap12";
