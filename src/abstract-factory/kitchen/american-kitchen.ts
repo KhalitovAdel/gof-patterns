@@ -1,11 +1,12 @@
 import {IKitchen} from "./interface/kitchen.interface";
+import {IDish} from "../../bridge/interface/dish.interface";
 
 export class AmericanKitchen implements IKitchen {
-    createTraditionalDish(): unknown {
-        return null;
+    createTraditionalDish(): IDish[] {
+        return null as unknown as IDish[];
     }
 
-    createOtherDish(): unknown {
-        return null;
+    createOtherDish(): IDish[] {
+        return null as unknown as IDish[];
     }
 }
